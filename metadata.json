@@ -1,0 +1,6 @@
+{
+  "name": "MX6 MULTI GYM | Elite Strength & Fitness Mayyil",
+  "description": "Official website for MX6 MULTI GYM in Mayyil. Build Your Strength. Transform Your Life. Weight training, aerobics, ladies sessions, expert fitness plans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
