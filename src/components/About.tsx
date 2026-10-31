@@ -1,4 +1,5 @@
 import { CheckCircle2, Dumbbell, Award, HeartHandshake, Sparkles } from 'lucide-react';
+import weightTrainingImage from '../assets/images/gym_weight_training.jpg';
 import { GYM_INFO } from '../data/gymData';
 
 export default function About() {
@@ -33,7 +34,7 @@ export default function About() {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-neutral-800 shadow-2xl bg-neutral-900 group">
               <img
-                src={GYM_INFO.weightTrainingImg}
+                src={weightTrainingImage}
                 alt="Strength Training Floor at MX6 MULTI GYM"
                 className="w-full h-[450px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"

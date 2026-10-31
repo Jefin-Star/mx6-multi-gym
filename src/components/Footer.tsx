@@ -1,4 +1,5 @@
 import { MessageCircle, Mail, Instagram, MapPin, ArrowUp, Phone } from 'lucide-react';
+import logoImage from '../assets/images/mx6_logo.jpg';
 import { GYM_INFO } from '../data/gymData';
 
 export default function Footer() {
@@ -15,7 +16,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full overflow-hidden border border-amber-400/40 bg-neutral-900 p-0.5 shadow-md">
                 <img
-                  src={GYM_INFO.logoUrl}
+                  src={logoImage}
                   alt="MX6 MULTI GYM Logo"
                   className="w-full h-full object-contain"
                   referrerPolicy="no-referrer"

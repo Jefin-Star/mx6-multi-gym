@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone, MessageCircle } from 'lucide-react';
+import logoImage from '../assets/images/mx6_logo.jpg';
 import { GYM_INFO } from '../data/gymData';
 
 interface NavbarProps {
@@ -52,7 +53,7 @@ export default function Navbar({ onJoinClick }: NavbarProps) {
           >
             <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full overflow-hidden border border-amber-400/40 bg-neutral-900 flex items-center justify-center p-0.5 shadow-sm group-hover:border-amber-400 transition-colors">
               <img
-                src={GYM_INFO.logoUrl}
+                src={logoImage}
                 alt="MX6 MULTI GYM Logo"
                 className="w-full h-full object-contain"
                 referrerPolicy="no-referrer"

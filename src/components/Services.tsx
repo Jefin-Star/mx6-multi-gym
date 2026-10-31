@@ -11,6 +11,7 @@ import {
   Clock,
   ArrowUpRight,
 } from 'lucide-react';
+import aerobicsImage from '../assets/images/gym_aerobics_wellness.jpg';
 import { GYM_SERVICES, GYM_INFO } from '../data/gymData';
 
 interface ServicesProps {
@@ -97,7 +98,7 @@ export default function Services({ onSelectServiceForRegistration }: ServicesPro
 
             <div className="lg:col-span-5 h-64 lg:h-full relative overflow-hidden">
               <img
-                src={GYM_INFO.aerobicsImg}
+                src={aerobicsImage}
                 alt="Aerobics and Group Fitness Studio at MX6 MULTI GYM"
                 className="w-full h-full object-cover object-center filter brightness-90"
                 referrerPolicy="no-referrer"

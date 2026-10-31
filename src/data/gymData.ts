@@ -1,4 +1,8 @@
 import { MembershipPlan, GymService, ScheduleSession } from '../types';
+import heroBgImg from '../assets/images/hero_gym_workout.jpg';
+import weightTrainingImg from '../assets/images/gym_weight_training.jpg';
+import aerobicsImg from '../assets/images/gym_aerobics_wellness.jpg';
+import mx6Logo from '../assets/images/mx6_logo.jpg';
 
 export const GYM_INFO = {
   name: 'MX6 MULTI GYM',
@@ -13,10 +17,10 @@ export const GYM_INFO = {
   address: 'MX6 GYM, Mayyil, Kannur, Kerala 670602',
   mapEmbedUrl:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.750813054625!2d75.4467959!3d11.9959822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba439e9607a591b%3A0xd21527cd2e99dd52!2sMX6%20GYM!5e1!3m2!1sen!2sin!4v1793434543048!5m2!1sen!2sin',
-  logoUrl: '/public/assets/aistudio/bb4b59df-99e6-493a-a7a1-c70836877b79_6473e8d7.jpg',
-  heroBgUrl: '/src/assets/images/hero_gym_workout_1793435498799.jpg',
-  weightTrainingImg: '/src/assets/images/gym_weight_training_1793435499761.jpg',
-  aerobicsImg: '/src/assets/images/gym_aerobics_wellness_1793435500791.jpg',
+  logoUrl: mx6Logo,
+  heroBgUrl: heroBgImg,
+  weightTrainingImg: weightTrainingImg,
+  aerobicsImg: aerobicsImg,
 };
 
 export const MEMBERSHIP_PLANS: MembershipPlan[] = [

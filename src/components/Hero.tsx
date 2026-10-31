@@ -1,4 +1,5 @@
 import { ArrowRight, ChevronRight, ShieldCheck, Flame, Users, Calendar } from 'lucide-react';
+import heroBgImage from '../assets/images/hero_gym_workout.jpg';
 import { GYM_INFO } from '../data/gymData';
 
 interface HeroProps {
@@ -12,7 +13,7 @@ export default function Hero({ onJoinClick, onViewPlansClick }: HeroProps) {
       {/* Background Image with Cinematic Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src={GYM_INFO.heroBgUrl}
+          src={heroBgImage}
           alt="MX6 MULTI GYM Interior"
           className="w-full h-full object-cover object-center filter brightness-60 scale-105 transition-transform duration-1000 ease-out"
           referrerPolicy="no-referrer"
